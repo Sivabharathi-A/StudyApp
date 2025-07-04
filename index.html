@@ -7,25 +7,31 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <nav class="navbar bg-body-tertiary" aria-label="Light offcanvas navbar">
-        <div class="container-fluid"> <a class="navbar-brand" href="#"><span><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
-  <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
-</svg></span></a> <button
-                class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight"
-                aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation"> <span
-                    class="navbar-toggler-icon"></span> </button>
+        <div class="container-fluid"> <a class="navbar-brand" href="#"><span><svg xmlns="http://www.w3.org/2000/svg"
+                        width="40" height="40" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+                        <path
+                            d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+                    </svg></span></a> <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight"
+                aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight"
                 aria-labelledby="offcanvasNavbarLightLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel" style="font-family: serif; font-weight: 500;">STUDY APP</h5> <button type="button"
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel"
+                        style="font-family: serif; font-weight: 500;">STUDY APP</h5> <button type="button"
                         class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -54,38 +60,8 @@
             </div>
         </div>
     </nav>
-    <div id="popup" class="popup-overlay">
-        <div class="popup-content">
-            <div class="close-btn">
-                <button class="close-btn" onclick="closePopup()"><svg xmlns="http://www.w3.org/2000/svg" width="30"
-                        height="30" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
-                        <path
-                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
-                    </svg></button>
-            </div>
-            <div id="todo" class="header">
-                <h2>To Do List</h2>
-                <input type="text" id="myInput" placeholder="enter your tasks...">
-                <span onclick="newElement()" class="addBtn">Add</span>
-                <div>
-                    <p></p>
-                </div>
-                <div style="padding: 5px 5px; ">
-                    <button class="filter-btn" onclick="filterTasks('all')"
-                        style="background-color: bisque;">All</button>
-                    <button class="filter-btn" onclick="filterTasks('completed')"
-                        style="background-color: rgb(160, 221, 190);">Completed</button>
-                    <button class="filter-btn" onclick="filterTasks('active')"
-                        style="background-color: rgb(236, 165, 181);">Pending</button>
-                </div>
-            </div>
 
 
-            <ul id="myUL">
-            </ul>
-
-        </div>
-    </div>
     <div class="timer-container">
         <div class="time-selection">
             <!-- <label for="study-time">Set Study Time:</label> -->
@@ -125,6 +101,67 @@
     </div>
 
 
+    <div id="popup" class="popup-overlay">
+        <div class="popup-content">
+            <div class="close-btn">
+                <button class="close-btn" onclick="closePopup()"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                        height="30" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                    </svg></button>
+            </div>
+            <div id="todo" class="header">
+                <h2>To Do List</h2>
+                <input type="text" id="myInput" placeholder="enter your tasks...">
+                <span onclick="newElement()" class="addBtn">Add</span>
+                <div>
+                    <p></p>
+                </div>
+                <div style="padding: 5px 5px; ">
+                    <button class="filter-btn" onclick="filterTasks('all')"
+                        style="background-color: bisque;">All</button>
+                    <button class="filter-btn" onclick="filterTasks('completed')"
+                        style="background-color: rgb(160, 221, 190);">Completed</button>
+                    <button class="filter-btn" onclick="filterTasks('active')"
+                        style="background-color: rgb(236, 165, 181);">Pending</button>
+                </div>
+            </div>
+
+
+            <ul id="myUL">
+            </ul>
+
+        </div>
+    </div>
+
+
+    <div id="popup1" class="popup-overlay">
+        <div class="popup-content">
+            <div class="close-btn">
+                <button class="close-btn" onclick="closePopup1()"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                        height="30" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+                    </svg></button>
+            </div>
+
+            <div class="flash">
+                <h2>Flashcards</h2>
+                <button id="add-flashcard">Add Flashcard</button>
+                <div class="card-list-container"></div>
+            </div>
+
+            <div id="add-question-card" class="hide">
+                <input type="text" id="question" placeholder="Enter Question" />
+                <input type="text" id="answer" placeholder="Enter Answer" />
+                <p id="error" class="hide">Please enter both question and answer</p>
+                <button id="save-btn">Save</button>
+                <button id="close-btn">Cancel</button>
+            </div>
+
+        </div>
+    </div>
+
     <!-- ............................................................................................................................................................................................................... -->
     <script>
         // Get reference to the offcanvas instance
@@ -137,6 +174,7 @@
                 offcanvasInstance.hide(); // Closes the offcanvas
             });
         });
+
     </script>
     <!-- ............................................................................................................................................................................................................... -->
 
