@@ -79,8 +79,19 @@ Open `index.html` in your preferred browser.
 No build tools or dependencies needed.
 
 ---
+Here's a clean and professional **preview section** for your **Study Application** (which includes the Flashcard, Timer, and To-Do List features), assuming you're showing only the **main interface screenshot**:
+
+---
+
+## 🖼️ Preview
+
+Here is a screenshot of the Study App main interface:
+
+> *This screenshot highlights the combined interface for managing study tasks. While only the main layout is shown, the app also includes functional flashcards, a study timer with dropdown control, and a persistent to-do list with local storage support.*
 
 ![image](https://github.com/user-attachments/assets/0edf910c-3f32-4f72-8454-2c9ae133fa11)
+![Uploading image.png…]()
+
 ---
 
 ## 🌟 Future Improvements
@@ -96,7 +107,7 @@ No build tools or dependencies needed.
 ## 👨‍💻 Author
 
 **Siva Bharathi**
-🔗 GitHub: [SivabharathiA](https://github.com/SivabharathiA)
+🔗 GitHub: [Siva Bharathi](https://github.com/SivabharathiA)
 
 ---
 
