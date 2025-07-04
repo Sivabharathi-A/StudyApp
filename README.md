@@ -90,7 +90,8 @@ Here is a screenshot of the Study App main interface:
 > *This screenshot highlights the combined interface for managing study tasks. While only the main layout is shown, the app also includes functional flashcards, a study timer with dropdown control, and a persistent to-do list with local storage support.*
 
 ![image](https://github.com/user-attachments/assets/0edf910c-3f32-4f72-8454-2c9ae133fa11)
-![Uploading image.png…]()
+![Screenshot 2025-07-05 011234](https://github.com/user-attachments/assets/70399b97-973b-4e8a-85a0-9b0579945701)
+
 
 ---
 
