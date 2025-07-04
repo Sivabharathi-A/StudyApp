@@ -1,82 +1,105 @@
-📚 Productivity Suite: Study Timer · To-Do List · Flashcards
+---
 
-A sleek and responsive all-in-one productivity web app built with HTML, CSS, and JavaScript. Ideal for students and self-learners who want to manage their time, tasks, and study material effectively.
+# 📚 Productivity Suite: Study Timer · To-Do List · Flashcards
 
-✨ Features
+A sleek and responsive all-in-one productivity web app built with **HTML**, **CSS**, and **JavaScript**. Ideal for students and self-learners who want to manage their time, tasks, and study material efficiently.
 
-⏱️ Study Timer
+---
 
-Set custom study durations from a dropdown menu.
+## ✨ Features
 
-Start, pause, and reset controls for flexible use.
+### ⏱️ Study Timer
 
-Audio notification when time ends.
+* Select custom durations from a dropdown menu.
+* Start, pause, and reset buttons for full control.
+* Audio alert when the timer ends.
+* Smart interface disables buttons during countdown to prevent accidental clicks.
 
-Automatically disables controls while the timer is running.
+### ✅ To-Do List
 
-✅ To-Do List
+* Add, complete, and delete tasks quickly.
+* Local storage ensures tasks persist after page reloads.
+* Built-in keyboard shortcuts:
 
-Add, check off, and delete tasks with a clean interface.
+  * `Enter` – Add a new task
+  * `1` – Show all tasks
+  * `2` – Show completed tasks
+  * `3` – Show active tasks
 
-Automatically saves tasks to local storage.
+### 🧠 Flashcard App
 
-Includes keyboard shortcuts for quick filtering:
+* Create flashcards with questions and answers.
+* Toggle "Show/Hide" for answers.
+* Edit and delete cards anytime.
+* Clean popup form for easy input and management.
 
-Enter – Add a new task
+---
 
-1 – Show all tasks
-
-2 – Show completed tasks
-
-3 – Show active tasks
-
-🧠 Flashcard App
-
-Create your own flashcards with a question and answer.
-
-Click "Show/Hide" to toggle the answer.
-
-Edit and delete any flashcard easily.
-
-User-friendly input form with validation.
-
-🌐 Demo
+## 🌐 Demo
 
 live preview: https://sivabharathi-a.github.io/StudyApp/
 
-🛠️ Tech Stack
+---
 
-HTML5 – For structuring content
+## 🛠️ Tech Stack
 
-CSS3 – For styling and layout
+| Technology   | Purpose                       |
+| ------------ | ----------------------------- |
+| HTML5        | Structure and layout          |
+| CSS3         | Styling and design            |
+| JavaScript   | App logic and interactivity   |
+| Font Awesome | Icons for edit/delete buttons |
 
-JavaScript (ES6) – For interactive logic and local storage
+---
 
-Font Awesome – For icons (edit/delete)
+## 📁 Project Structure
 
-📁 Project Structure
+```
+productivity-suite/
+├── index.html        # Main page
+├── style.css         # Styling for all components
+├── script.js         # Core JavaScript functionality
+└── README.md         # Project documentation
+```
 
-StudyApp/
-├── index.html        # Main HTML file
-├── style.css         # CSS for styling
-├── script.js         # JavaScript functionality
-└── README.md         # Project description
+---
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-Clone the repository:
+### Clone this Repository
+
+```bash
 git clone https://github.com/Sivabharathi-A/StudyApp.git
-cd productivity-suite
-Open the project:
+cd StudyApp
+```
 
-Just double-click index.html or open it in your preferred browser or live server.
+### Run the App
+
+Open `index.html` in your preferred browser.
+No build tools or dependencies needed.
+
+---
 
 ![image](https://github.com/user-attachments/assets/0edf910c-3f32-4f72-8454-2c9ae133fa11)
+---
 
-👤 Author
+## 🌟 Future Improvements
 
-Siva Bharathi
+* Dark mode toggle 🌙
+* Flashcard storage using localStorage
+* Export/import options for tasks and flashcards
+* Pomodoro mode for advanced study cycles
 
-🔗 GitHub: https://github.com/Sivabharathi-A
+---
 
-Made with 💻, ☕, and a love for productivity!
+
+## 👨‍💻 Author
+
+**Siva Bharathi**
+🔗 GitHub: [SivabharathiA](https://github.com/SivabharathiA)
+
+---
+
+> Built with 💻, ☕, and a passion for productivity and clean design.
+
+---
