@@ -76,8 +76,7 @@ Just double-click index.html or open it in your preferred browser or live server
 👤 Author
 
 Siva Bharathi
-👨‍🎓 CSE Student at Dr. Mahalingam College of Engineering and Technology
-📧 Email: sivabharathi565@gmail.com
+
 🔗 GitHub: https://github.com/Sivabharathi-A
 
 Made with 💻, ☕, and a love for productivity!
