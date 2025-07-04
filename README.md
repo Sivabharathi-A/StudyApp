@@ -2,6 +2,7 @@
 A sleek and responsive all-in-one productivity web app built with HTML, CSS, and JavaScript. Ideal for students and self-learners who want to manage their time, tasks, and study material effectively.
 
 ✨ Features
+
 ⏱️ Study Timer
 Set custom study durations from a dropdown menu.
 
@@ -48,7 +49,7 @@ JavaScript (ES6) – For interactive logic and local storage
 Font Awesome – For icons (edit/delete)
 
 📁 Project Structure
-productivity-suite/
+StudyApp/
 ├── index.html        # Main HTML file
 ├── style.css         # CSS for styling
 ├── script.js         # JavaScript functionality
@@ -56,7 +57,7 @@ productivity-suite/
 
 🚀 Getting Started
 Clone the repository:
-git clone https://github.com/your-username/productivity-suite.git
+git clone https://github.com/Sivabharathi-A/StudyApp.git
 cd productivity-suite
 Open the project:
 
